@@ -1,0 +1,12 @@
+{
+	"include": ["src/wfc.ts"],
+	"compilerOptions": {
+		"lib": ["es2019", "dom"],
+		"outDir": "dist",
+		"module": "ES6",
+		"target": "ES2015",
+		"declaration": true,
+		"moduleResolution": "bundler",
+		"emitDeclarationOnly": true,
+	}
+}
